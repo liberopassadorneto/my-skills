@@ -213,7 +213,7 @@ dependencies {
     }
 
     //Add to Detox
-    androidTestImplementation('com.wix:detox:+') { transitive = true}
+    androidTestImplementation('com.wix:detox:+') { transitive = true }
     androidTestImplementation 'junit:junit:4.12'
 
     if (enableHermes) {
